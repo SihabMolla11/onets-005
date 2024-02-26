@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+  @apply max-w-[1300px] mx-auto w-full p-5;
+}
+
+.flex-center {
+  @apply flex items-center;
+}
+
+.white-btn {
+  @apply bg-color-white py-2 px-4 text-color-primary font-normal rounded-md items-center gap-2;
+}
+
+.btn-primary {
+  @apply bg-color-primary py-2 px-4 text-color-white font-normal rounded-md items-center gap-2;
+}
+
+.banner-search-content {
+  @apply flex-center gap-3 px-[18px] w-full;
+}
+
+.section-title {
+  @apply text-[40px] text-center font-medium mb-[50px];
+}
+
+.grid-4-cols {
+  @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+}
+
+.card-line {
+  @apply border-0 h-[1px] bg-gradient-to-l from-[#999daa85] my-4;
+}
+
+.product-ads-border {
+  @apply border-b border-r border-l-2 rounded-b-lg border-[#FFBF00] bg-gradient-to-r from-[#ffbf0027] via-[#ffbf0000] to-[#ffbf0027];
+}
+
+.new-ads-card-border {
+  @apply py-5 max-h-[220px] rounded-b-lg lg:rounded-r-lg h-full w-full;
+}
+
+.new-ad-card-bg {
+  @apply border-t-4 lg:border-l-4 border-[1px]  border-[#FFBF00] bg-gradient-to-r from-[#ffbf001a];
+}
+
+.nc-gray-brd {
+  @apply border-[2px] border-[#EBEEF7] border-l-0;
+}
+
+/* .location-card {
+  @apply p-6 h-full z-10 rounded-md relative text-center  w-full after:content-['*'] after:h-[70%] after:-z-10 after:w-full after:absolute after:bottom-0 after:left-0 after:text-red-500 after:border after:border-[#EBEEF7] after:rounded-md;
+} */
