@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        homeBanner: "url('./src/assets/BG.png')",
+        homeBanner: "url('./BG.png')",
       }
     },
     colors: {
